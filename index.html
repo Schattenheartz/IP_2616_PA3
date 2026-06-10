@@ -7,10 +7,20 @@
     <title>IP_CrecimientoUsuario</title>
 </head>
 <body>
-    <h1>Cristian</h1>
-    <p>Usuarios</p>
-    <p>Meta</p>
 
+     <div class="contenedor">
+        <h1>Crecimiento de Usuarios</h1>
+
+        <label>Cantidad Inicial:</label>
+        <input type="number" id="cantidadInicial">
+
+        <label>Meta de Usuarios:</label>
+        <input type="number" id="metaUsuarios">
+
+        <button onclick="simular()">Calcular</button>
+
+        <p id="resultado"></p>
+    </div>
 
     <script src="crecimientousuario.js"></script>
 </body>
